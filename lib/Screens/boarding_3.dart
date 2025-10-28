@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter/widgets.dart';
+
 
 class Boarding3 extends StatefulWidget {
   final String resultHome;
@@ -32,7 +32,7 @@ class Boarding3State extends State<Boarding3> {
         padding: const EdgeInsets.all(25.0),
         child: Column(
           children: [
-            // SizedBox(height: 25),
+           
             const Spacer(),
             Text(
               "BMI RESULTS",
@@ -43,15 +43,7 @@ class Boarding3State extends State<Boarding3> {
                 fontFamily: "Montserrat",
               ),
             ),
-            // Text(
-            //   "Result",
-            //   style: TextStyle(
-            //     fontSize: 35,
-            //     fontWeight: FontWeight.w500,
-            //     color: Colors.white,
-            //   ),
-            // ),
-            // SizedBox(height: 30),
+           
             const Spacer(),
             SizedBox(
               height: 180,
@@ -93,7 +85,7 @@ class Boarding3State extends State<Boarding3> {
               ),
             ),
 
-            // SizedBox(height: 30),
+           
             const Spacer(),
             Text(
               widget.cathome,
@@ -104,14 +96,14 @@ class Boarding3State extends State<Boarding3> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            // SizedBox(height: 20),
+         
             const Spacer(),
             Padding(
               padding: const EdgeInsets.all(11.0),
               child: Container(
                 height: 400,
                 width: 400,
-                // color: Colors.white,
+
                 child: Text(
                   "${desc[widget.cathome]}",
                   style: TextStyle(
@@ -119,12 +111,12 @@ class Boarding3State extends State<Boarding3> {
                     fontWeight: FontWeight.w400,
                     fontFamily: "Poppins",
                     color: Colors.white.withValues(alpha: 0.8),
-                    // letterSpacing: 1.2,
+                   
                   ),
                 ),
               ),
             ),
-            // const Spacer(),
+          
           ],
         ),
       ),
